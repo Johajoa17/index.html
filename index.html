@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form 2</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/form1.css">
+    </head>
+
+    <style>
+        @media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+    label h1,
+    .jumbotron .h1 {
+        font-size: 50px;
+    }
+}
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #008B8B;
+}
+
+.box {
+    border: 5px solid rgb(130, 225, 215);
+    background: #FFFAF0;
+    padding: 40px;
+    margin: 40px;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+  }
+
+label{
+    font-family: MV Boli;
+    font-size: 20px;
+}
+
+.input-1{
+    width: 650px;
+}
+
+.input-2{
+    width: 705px;
+}
+
+input{
+    font-family: Lucinda Sans;
+    width: 600px;
+    height: 30px;
+}
+
+#boton{
+    width: 80px;
+    height: 50px;
+}
+
+p{
+    font-family: MV Boli;
+    font-size: 22px;
+    text-align: left;
+}
+
+select{
+    font-family: Lucinda Sans;
+    font-size: 17px;
+    width: 700px;
+}
+
+.boton-enviar{
+    margin-left: 380px;
+}
+
+.div-form{
+    position: center;
+    margin: 30px;
+}
+
+
+.btn {
+    margin-top: 20px;
+}
+#reserva {
+    margin: 30px;
+}
+
+#boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #008B8B;
+    border-radius: 6px;
+    border: 2px solid #FFFAF0;
+  }
+#boton:hover{
+    color: #fff;
+    background-color: #000;
+  }
+    </style>
+    <body>
+          <form enctype="text/plain" action="mailto:tiffanyjoachin16@gmail.com" method="post">
+            <div class="box">
+            <center>
+            <div class="div-form">
+            <label for="Nombre "><p>Full name</p></label>
+            <input type="text" name="Nombre " class="input-1" size="50" placeholder="John Deer">
+            </div>
+
+            <div class="div-form">
+            <label for="Trabajo o Estudio "><p>Street Address 1</p></label>
+            <input type="street-address" name="Trabajo o Estudio " size="50" placeholder="Street address, P.O. box, company name, c/o">
+            </div>
+
+            <div class="div-form">
+            <label for="Lugar "><p>Street Address 2</p></label>
+            <input type="street-address" name="Lugar " size="50" placeholder="Apartment, suite, unit, building, floor, etc.">
+            </div>
+
+            <div class="div-form">
+            <label for="Ciudad "><p>City</p></label>
+            <input type="text" name="Ciudad " class="input-2" size="50" placeholder="Smallville">
+            </div>
+            
+            <div class="div-form">
+            <label for="Estado ">
+            State
+            </label>
+            <select name="state">
+                <option>España</option>
+                <option>Estados Unidos</option>
+                <option>Francia</option>
+                <option>El Salvador</option>
+            </select>
+            </div>
+            <p align="center" class="boton-enviar"><input type="submit" value="Send" id="boton">   <input type="reset" value="reset" id="boton"></p>
+            </center>
+
+            </div>
+          </form>  
+    </body>
+</html>
